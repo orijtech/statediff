@@ -1,4 +1,4 @@
-FROM golang:1.23-alpine3.18
+FROM golang:1.23-alpine
 
 COPY ./ /
 RUN cd / && go build
